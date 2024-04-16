@@ -16,6 +16,7 @@ echo "  \__/\  /  (____  /__|   |__|  |__|\____/|__|   "
 echo "       \/        \/                              "
 echo """""""""""""""""""""""""""""""""""""""""""""""""""
 
+net.exe session 1>NUL 2>NUL || (Echo This script requires elevated rights. Open context menu and click Run as Administrator & pause & Exit /b 1)
 echo This script will attempt to fix missing Wi-Fi networks for Realtek 8852CE Wi-Fi 6E PCI-E NIC
 pause
 echo Disabling 6G 
